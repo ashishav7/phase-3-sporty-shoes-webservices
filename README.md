@@ -23,11 +23,11 @@
 ---
 
 	1. As an admin I want to perform CRUD Operations for User(Customer) and Shoes.
-  2. As an user i want to add shoes to my cart, see the list of all shoes, see his cart and delete something from his cart.
+  	2. As an user i want to add shoes to my cart, see the list of all shoes, see his cart and delete something from his cart.
 	3. As a dev I want to authenticate the admin that he is only performing the crud operations.
-  4. As a dev I want to make sure the user is performing operations in his cart only
+  	4. As a dev I want to make sure the user is performing operations in his cart only
 	5. As a dev create a database in SQL.
-  6. As a dev I had enabled swagger2, so that API's can be easily tested
+  	6. As a dev I had enabled swagger2, so that API's can be easily tested
 
 ---
 
@@ -44,8 +44,8 @@ Sprint 1 (8 days)
 
 ->3. Project git Repositories ->
 ---
-	1. link : https://github.com/ashishav7/phase-2-project-learners-academy.git
-	2. clone git : git clone https://github.com/ashishav7/phase-2-project-learners-academy.git
+	1. link : https://github.com/ashishav7/phase-3-sporty-shoes-webservices.git
+	2. clone git : git clone https://github.com/ashishav7/phase-3-sporty-shoes-webservices.git
 	
 
 ->4. How to run poject:
@@ -71,29 +71,11 @@ Sprint 1 (8 days)
 
 5. Some Output Screenshots
 	
-	**Login Screen**
+	**Swagger API**
 	--- 
-	![Login Screen](screenshots/login.jpg)
+	![Login Screen](screenshots/swagger1.jpg)
 	---
-	**Home Screen**	
+	**Swagger API**	
 	--- 
-	![Home Screen](screenshots/home.jpg)
-	---
-	**Create Class Screen**
-	--- 
-	![Add Class](screenshots/addclass.jpg)
-	---
-	**Add Class Form** 
-	--- 
-	![Add Class](screenshots/addclassForm.jpg)
-	---
-	
-	**List**
-	---
-	![List](screenshots/list.jpg)
-	---
-	
-	**Update Form**
-	---
-	![Update Form](screenshots/updateform.jpg)
+	![Home Screen](screenshots/swagger2.jpg)
 	---
