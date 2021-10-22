@@ -7,6 +7,7 @@
 			-> Swagger2
 			-> Exception Handling
 			-> RESTfull Webservices
+			-> JUnit 5
 			-> Maven
       			-> Hibernate
       			-> SQL
