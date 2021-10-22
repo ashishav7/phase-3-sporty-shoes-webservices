@@ -56,8 +56,8 @@ Sprint 1 (8 days)
 	4.2. Database Creation
     		create a database in MYSQL Workbench with name "sporty_shoes"
   	4.3. Modifying "application.properties"
-		change hibernate.connection.username property to the username of the connection username of your SQL connection
-		change hibernate.connection.password property to the password of the connection username of your SQL connection
+		change spring.datasource.username property to the username of the connection username of your SQL connection
+		change spring.datasource.password property to the password of the connection password of your SQL connection
   	4.4. Run Project 
   		right click on ProjectPhase3Application.java in com.sportyshoes.webservice  -> run as -> Run as Java Application
     4.5 http://localhost:3000/swagger-ui.html, Go to this link and try the API's either from this or use POSTMAN
