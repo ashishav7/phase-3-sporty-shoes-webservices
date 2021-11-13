@@ -28,7 +28,6 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                echo ls
                 echo '----------------- This is a build docker image phase ----------'
                 sh '''
                     docker image build -t phase-3-sporty-shoes-webservices .
