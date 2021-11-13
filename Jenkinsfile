@@ -4,9 +4,6 @@ pipeline {
     triggers {
         pollSCM('* * * * *')
     }
-    // Got permission denied while trying to connect to the Docker daemon socket at unix.
-    // sudo usermod -a -G docker jenkins
-    // restart jenkins server ->  sudo service jenkins restart
     stages {
         
         stage('Maven Compile') {
@@ -48,7 +45,7 @@ pipeline {
                      else \
                     echo OK; \
                  fi;);
-            docker container run --restart always --name phase-3-sporty-shoes-webservices -p 8081:3000 -d phase-3-sporty-shoes-webservices
+            docker container run --restart always --name phase-3-sporty-shoes-webservices -p 8080:3000 -d phase-3-sporty-shoes-webservices
             '''
             }
         }
