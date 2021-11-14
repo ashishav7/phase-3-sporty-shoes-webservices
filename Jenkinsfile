@@ -46,7 +46,7 @@ pipeline {
                      else \
                     echo OK; \
                  fi;);
-            docker container run --restart always --name phase-3-sporty-shoes-webservices -p 80:3000 -d phase-3-sporty-shoes-webservices
+            docker container run --restart always --name phase-3-sporty-shoes-webservices -p 8081:3000 -d phase-3-sporty-shoes-webservices
             '''
             }
         }
