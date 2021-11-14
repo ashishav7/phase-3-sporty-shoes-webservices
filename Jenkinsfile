@@ -4,6 +4,7 @@ pipeline {
     triggers {
         pollSCM('* * * * *')
     }
+    
     stages {
         
         stage('Maven Compile') {
